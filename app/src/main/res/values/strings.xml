@@ -1,0 +1,212 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forgert_password"><u>Forgot password?</u></string>
+    <string name="Stringsingup"><u>SignUp?</u></string>
+    <string name="StringsingIn"><u>SignIn?</u></string>
+
+
+    <string name="question_1">What is Your Nickname?</string>
+    <string name="question_1_A">1. Jony</string>
+    <string name="question_1_B">2. Samiul </string>
+    <string name="question_1_C">3. Md.</string>
+    <string name="question_1_D">4. Alim</string>
+    <string name="answer_1">1. Jony</string>
+
+    <string name="question_2">What is Your Versity?</string>
+    <string name="question_2_A">1. AIUB</string>
+    <string name="question_2_B">2. IUB </string>
+    <string name="question_2_C">3. BUP</string>
+    <string name="question_2_D">4. EUB</string>
+    <string name="answer_2">4. EUB</string>
+
+    <string name="question_3">What is Your Hight School?</string>
+    <string name="question_3_A">1. Shibganj Govt Model School</string>
+    <string name="question_3_B">2. Shatrajitpur High School</string>
+    <string name="question_3_C">3. Horemohon Hight School</string>
+    <string name="question_3_D">4. Vugichugi</string>
+    <string name="answer_3">2. Shatrajitpur High School</string>
+
+    <string name="question_4">What is Your College?</string>
+    <string name="question_4_A">1. ABCD</string>
+    <string name="question_4_B">2. SBC </string>
+    <string name="question_4_C">3. SHibganj College</string>
+    <string name="question_4_D">4. EUB</string>
+    <string name="answer_4">3. SHibganj College</string>
+
+    <string name="question_5">What is Your Live Location?</string>
+    <string name="question_5_A">1. Mirpur</string>
+    <string name="question_5_B">2. Tongi </string>
+    <string name="question_5_C">3. Uttora</string>
+    <string name="question_5_D">4. Badda</string>
+    <string name="answer_5">1. Mirpur</string>
+
+
+    <string name="ict_question_1">আধুনিক কম্পিউটারের জনক কে?</string>
+    <string name="ict_question_1_A">ক) বিজ্ঞানী মার্কনী </string>
+    <string name="ict_question_1_B">খ) অ্যাডা লাভলেস </string>
+    <string name="ict_question_1_C">গ) চার্লস ব্যাবেজ</string>
+    <string name="ict_question_1_D">ঘ) জগদীশ চন্দ্র বসু</string>
+    <string name="ict_answer_1">গ) চার্লস ব্যাবেজ</string>
+
+    <string name="ict_question_2">IP  এর পূর্ণ নাম কী?</string>
+    <string name="ict_question_2_A">ক) Internet Protocol</string>
+    <string name="ict_question_2_B">খ) Internal Protocol</string>
+    <string name="ict_question_2_C">গ) Information Protocol</string>
+    <string name="ict_question_2_D">ঘ) International Protocol</string>
+    <string name="ict_answer_2">ক) Internet Protocol</string>
+
+    <string name="ict_question_3">সর্বপ্রথম ই-মেইল সিস্টেম চালু করেন কে?</string>
+    <string name="ict_question_3_A">ক) জেমস ক্লার্ক ম্যাক্সওয়েল</string>
+    <string name="ict_question_3_B">খ) অ্যাডা লাভলেস</string>
+    <string name="ict_question_3_C">গ) চার্লস ব্যাবেজ</string>
+    <string name="ict_question_3_D">ঘ) রেমন্ড স্যামুয়েল টমলিনসন</string>
+    <string name="ict_answer_3">ঘ) রেমন্ড স্যামুয়েল টমলিনসন</string>
+
+
+    <string name="ict_question_4">http এর পূর্ণ নাম কী?</string>
+    <string name="ict_question_4_A">ক) hyper text transfer protocol</string>
+    <string name="ict_question_4_B">খ) hyper text transection protocol</string>
+    <string name="ict_question_4_C">গ) hyper type transmission protocol</string>
+    <string name="ict_question_4_D">ঘ) hyper text transfer pointer</string>
+    <string name="ict_answer_4">ক) hyper text transfer protocol</string>
+
+    <string name="ict_question_5">অনলাইনে টিকেট কাঁটাকে কী বলে ?</string>
+    <string name="ict_question_5_A">ক) Electronic Money Transfer Server</string>
+    <string name="ict_question_5_B">খ) Easy Money Transfer System</string>
+    <string name="ict_question_5_C">গ) Electronic Money Transfer System</string>
+    <string name="ict_question_5_D">ঘ) Electronic Money Transport System</string>
+    <string name="ict_answer_5">গ) Electronic Money Transfer System</string>
+
+
+    <string name="math_question_1">সর্বাধিক কতজনের মধ্যে 341 টি আপেল ও 403 টি আনারস সমান ভাবে ভাগ করা যাবে ?</string>
+    <string name="math_question_1_A">ক) 11</string>
+    <string name="math_question_1_B">খ) 13</string>
+    <string name="math_question_1_C">গ) 31</string>
+    <string name="math_question_1_D">ঘ) 37</string>
+    <string name="math_answer_1">গ) 31</string>
+
+    <string name="math_question_2">যদি a : b = 4 : 3, b : c = 6 : 5 এবং c : d = 3 : 4 হয় তবে  b : d = ?</string>
+    <string name="math_question_2_A">ক) 10 : 9</string>
+    <string name="math_question_2_B">খ) 9 : 10</string>
+    <string name="math_question_2_C">গ) 8 : 5</string>
+    <string name="math_question_2_D">ঘ) 1 : 1</string>
+    <string name="math_answer_2">খ) 9 : 10</string>
+
+    <string name="math_question_3">পিত ও পুত্রের বর্তমান বয়সের অনুপাত 10 : 3,  3 বছর পরে ঐ অনুপাত 3 : 1 হবে।  বর্তমানে পিতা ও পুত্রের বয়স কত ?</string>
+    <string name="math_question_3_A">ক) 70, 21</string>
+    <string name="math_question_3_B">খ) 50, 15</string>
+    <string name="math_question_3_C">গ) 40, 12</string>
+    <string name="math_question_3_D">ঘ) 60, 18</string>
+    <string name="math_answer_3">ঘ) 60, 18</string>
+
+    <string name="math_question_4">একটি পরীক্ষায় প্রথম ছাত্র দ্বিতীয় ছাত্র অপেক্ষা 12 নম্বর বেশি পেয়েছে। প্রথম ছাত্রের নম্বর দ্বিতীয় ছাত্রের গুন হলে, দুজনের মোট নম্বর হল -</string>
+    <string name="math_question_4_A">ক) 65</string>
+    <string name="math_question_4_B">খ) 108</string>
+    <string name="math_question_4_C">গ) 102</string>
+    <string name="math_question_4_D">ঘ) 100</string>
+    <string name="math_answer_4">খ) 108</string>
+
+    <string name="math_question_5">একটি ট্রেন ও একটি মোটর বিপরীত দিকে যথাক্রমে 50 km/hr. এবং 0.5km/min গেলে তাদের আপেক্ষিক গতিবেগ কত হবে ?</string>
+    <string name="math_question_5_A">ক) 55 km/hr.</string>
+    <string name="math_question_5_B">খ) 50 km/hr.</string>
+    <string name="math_question_5_C">গ) 80 km/hr.</string>
+    <string name="math_question_5_D">ঘ) 20 km/hr.</string>
+    <string name="math_answer_5">গ) 80 km/hr.</string>
+
+
+    <string name="science_question_1">ফসফরাসের পারমাণবিকতা কি?</string>
+    <string name="science_question_1_A">ক) Mono-atomic</string>
+    <string name="science_question_1_B">খ)  Di-atomic</string>
+    <string name="science_question_1_C">গ)  Poly-atomic</string>
+    <string name="science_question_1_D">ঘ) Tetra-atomic</string>
+    <string name="science_answer_1">ঘ) Tetra-atomic</string>
+
+    <string name="science_question_2">হিমোগ্লোবিনে কোন ধাতু থাকে?</string>
+    <string name="science_question_2_A">ক) Fe</string>
+    <string name="science_question_2_B">খ) ca</string>
+    <string name="science_question_2_C">গ) k</string>
+    <string name="science_question_2_D">ঘ) Al</string>
+    <string name="science_answer_2">ক) Fe</string>
+
+
+    <string name="science_question_3">ম্যাগনেসিয়াম এর পরমাণুর সংখ্যা 12। তার যোজ্যতা কত?</string>
+    <string name="science_question_3_A">ক) 1</string>
+    <string name="science_question_3_B">খ) 2</string>
+    <string name="science_question_3_C">গ) 3</string>
+    <string name="science_question_3_D">ঘ) 4</string>
+    <string name="science_answer_3">খ) 2</string>
+
+
+    <string name="science_question_4">মানুষের অন্ত্রে কোন ব্যাকটেরিয়া পাওয়া যায়?</string>
+    <string name="science_question_4_A">ক) ইসচেরিচিয়া কোলাই (E.coli)</string>
+    <string name="science_question_4_B">খ) ব্যাসিলাস</string>
+    <string name="science_question_4_C">গ) vibri colliery</string>
+    <string name="science_question_4_D">ঘ) Xanthomonas</string>
+    <string name="science_answer_4">ক) ইসচেরিচিয়া কোলাই (E.coli)</string>
+
+
+    <string name="science_question_5">পরমাণুর সমান সংখ্যক প্রোটন কিন্তু আলাদা সংখ্যক নিউটন হলে তাদের কি বলে?</string>
+    <string name="science_question_5_A">ক) আইসোটোপ</string>
+    <string name="science_question_5_B">খ) আইসোবার</string>
+    <string name="science_question_5_C">গ) আইসোমেরিক</string>
+    <string name="science_question_5_D">ঘ) আইসোটোন</string>
+    <string name="science_answer_5">ক) আইসোটোপ</string>
+
+
+    <string name="gk_question_1">বাংলাদেশে মোট কতটি উপ-জেলা রয়েছে?</string>
+    <string name="gk_question_1_A">ক) ৪৯৫</string>
+    <string name="gk_question_1_B">খ) ৫৪৬</string>
+    <string name="gk_question_1_C">গ) ৪৯৯</string>
+    <string name="gk_question_1_D">ঘ) ৪৬৪</string>
+    <string name="gk_answer_1">ক) ৪৯৫</string>
+
+
+    <string name="gk_question_2">বাংলাদেশের জন্য কান্ট্রি কলিং কোড কি?</string>
+    <string name="gk_question_2_A">ক) +49</string>
+    <string name="gk_question_2_B">খ) +230</string>
+    <string name="gk_question_2_C">গ) +880</string>
+    <string name="gk_question_2_D">ঘ) +890</string>
+    <string name="gk_answer_2">গ) +880</string>
+
+    <string name="gk_question_3">বাংলাদেশের জাতীয় খেলা ?</string>
+    <string name="gk_question_3_A">ক) ক্রিকেট</string>
+    <string name="gk_question_3_B">খ) কাবাডি</string>
+    <string name="gk_question_3_C">গ) হকি</string>
+    <string name="gk_question_3_D">ঘ) ফুটবল</string>
+    <string name="gk_answer_3">খ) কাবাডি</string>
+
+    <string name="gk_question_4">বাংলাদেশের প্রথম মহিলা পাইলট কে ?</string>
+    <string name="gk_question_4_A">ক) নাইমা হক</string>
+    <string name="gk_question_4_B">খ) কানিজ ফাতেমা রোকসানা</string>
+    <string name="gk_question_4_C">গ) নাসিম বেগম</string>
+    <string name="gk_question_4_D">ঘ) এর কোনটিই নয়</string>
+    <string name="gk_answer_4">খ) কানিজ ফাতেমা রোকসানা</string>
+
+    <string name="gk_question_5">নিচের নদীগুলোর মধ্যে কোনটি বাংলাদেশের দীর্ঘতম নদী?</string>
+    <string name="gk_question_5_A">ক) পদ্মা</string>
+    <string name="gk_question_5_B">খ) কপোতাক্ষ</string>
+    <string name="gk_question_5_C">গ) সুরমা</string>
+    <string name="gk_question_5_D">ঘ) এগুলোর কোনোটিই নয়</string>
+    <string name="gk_answer_5">ক) পদ্মা</string>
+
+
+    <string name="rules">আসসালামু আলাইকুম ।
+
+আশা করি ভালো আছেন।  আমাদের এই অ্যাপের নিয়ম গুলো তুলে ধরা হলো:-
+
+
+আমাদের এই অ্যাপে আপনি পেমেন্ট করে তার পড়ে কুইজ খেলতে পাড়বেন তার আগে প্রকটিশ করার জন্য আপরা কিছু প্রশ্ন দিয়ে রেখেছি সেটি আপনি দেখে তার পড়ে কুইজ শুরু করতে পাড়েন ।
+
+বি:দ্র: আপনার মতামত অবশ্যাই আমাদেন জানাবেন।\n\nধন্যবাদ\n\nEntrepreneur  It Company Ltd.</string>
+
+    <string name="contact_us">
+        \nMd.Sohel Rana
+        \n01648155859
+        \nCEO
+        \nEntrepreneur  It Company Ltd.
+    </string>
+
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "913420006601",
+    "project_id": "quiz-app-9b858",
+    "storage_bucket": "quiz-app-9b858.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913420006601:android:0d335d4b40d70331550918",
+        "android_client_info": {
+          "package_name": "com.babulgamit.quizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913420006601-1aql9i8vckjfk7gavfu2bj9ktr6jl27c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClm5mcJd2Bu6y58KIlhqYz0nQ_1wgnN4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913420006601-1aql9i8vckjfk7gavfu2bj9ktr6jl27c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
