@@ -34,19 +34,22 @@
             android:textStyle="bold"
             />
     </LinearLayout>
+
+
+
     <EditText
         android:layout_marginTop="10dp"
         android:id="@+id/nameedittxet_id"
         android:layout_width="match_parent"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
-        android:textColor="@color/white"
         android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:backgroundTint="@color/white"
-        android:layout_height="wrap_content"
-        android:hint="Enter your name..."
-        android:textSize="22dp"
+        android:hint="Enter your name"
+        android:textSize="20dp"
         android:textStyle="normal"
         />
 

@@ -30,7 +30,6 @@
             android:padding="3dp"
             android:layout_gravity="center"
             android:text="Contact Us"
-            android:textColor="@color/black"
             android:textSize="20dp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -39,7 +38,6 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:textSize="20dp"
-      android:textColor="@color/black"
     android:text="@string/contact_us"
       android:layout_margin="10dp"
     />

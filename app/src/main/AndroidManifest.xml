@@ -10,41 +10,60 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizApp">
         <activity
+            android:name=".ForgetActivity"
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".Contace_usActivity"
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".ScienceActivity"
+            android:noHistory="true"
+            android:parentActivityName=".PracticeActivity"
             android:exported="false" />
         <activity
             android:name=".MathActivity"
+            android:noHistory="true"
+            android:parentActivityName=".PracticeActivity"
             android:exported="false" />
         <activity
             android:name=".BCS_ExamActivity"
+            android:noHistory="true"
+            android:parentActivityName=".PracticeActivity"
             android:exported="false" />
-
         <activity
             android:name=".StartMainQuizActivity"
             android:exported="false"
+            android:noHistory="true"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".FeedBackActivity"
             android:exported="false"
+            android:noHistory="true"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".RulesActivity"
             android:exported="false"
+            android:noHistory="true"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".PracticeActivity"
-            android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:exported="true"
+            android:noHistory="false"
+            android:parentActivityName=".MainActivity" >
+
+        </activity>
         <activity
             android:name=".SignUp_Activity"
+            android:noHistory="true"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="true" >
-
+            android:noHistory="true"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -53,12 +72,17 @@
         </activity>
         <activity
             android:name=".BasicKnowledge"
+            android:noHistory="true"
+            android:parentActivityName=".PracticeActivity"
             android:exported="false" />
         <activity
             android:name=".ICT_Quiz"
+            android:noHistory="true"
+            android:parentActivityName=".PracticeActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:noHistory="true"
             android:exported="false">
 
         </activity>

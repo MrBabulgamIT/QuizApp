@@ -252,5 +252,7 @@ public class BasicKnowledge extends AppCompatActivity {
 
 
     }
+
+
 }
 

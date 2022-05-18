@@ -35,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text=" 1/5 নম্বর প্রশ্ন"
+            android:text=" 1/9 নম্বর প্রশ্ন"
             android:textAlignment="center"
             android:textColor="#F30B0B"
             android:textSize="22dp"

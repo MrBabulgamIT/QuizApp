@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private NavigationView navigationView;
     private Toolbar toolbar;
     private ImageView imageView;
+    int count=0;
     private CardView practiceCV,startquizCV,feedbackCV,rulesCV;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -118,48 +119,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         });
     }
-   /* @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_layout, menu);
-        return true;
-    }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.nav_home:
-
-                startActivity(new Intent(getApplicationContext(),MainActivity.class));
-
-                return true;
-            case R.id.nav_share:
-
-                Intent intent=new Intent(Intent.ACTION_SEND);
-                intent.setType("text/plain");
-                String subject="Android Application.";
-                String body="This is very Useful to Quiz learn practice .\n com.example.com.sharemenuoption";
-
-                intent.putExtra(Intent.EXTRA_SUBJECT,subject);
-                intent.putExtra(Intent.EXTRA_TEXT,body);
-
-                startActivity(Intent.createChooser(intent,"Share with"));
-                return true;
-
-                case R.id.nav_rate:
-                    Toast.makeText(this, "Click", Toast.LENGTH_SHORT).show();
-                return true;
-
-            case R.id.nav_feedback:
-                startActivity(new Intent(getApplicationContext(),ICT_Quiz.class));
-                return true;
-                case R.id.nav_contact_us:
-                    startActivity(new Intent(getApplicationContext(),BasicKnowledge.class));
-                return true;
-
-            default:
-                return super.onContextItemSelected(item);
-        }
-    }*/
 
     @Override
     public void onClick(View view) {
@@ -175,16 +135,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.cvRules_id:
-                startActivity(new Intent(getApplicationContext(),RulesActivity.class));
+               startActivity(new Intent(getApplicationContext(),RulesActivity.class));
                 break;
 
             case R.id.startQuiz_card_id:
-                startActivity(new Intent(getApplicationContext(),StartMainQuizActivity.class));
+               startActivity(new Intent(getApplicationContext(),StartMainQuizActivity.class));
                 break;
-
-
-
-
         }
     }
+
+    @Override
+    public void onBackPressed() {
+        count ++;
+
+        if (count==2)
+            finish();
+    }
+
 }

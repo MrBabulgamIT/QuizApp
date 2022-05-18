@@ -247,6 +247,13 @@ public class ScienceActivity extends AppCompatActivity {
         }
 
 
+
+
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
     }
 }
 
