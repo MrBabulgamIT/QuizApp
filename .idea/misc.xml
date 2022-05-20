@@ -4,12 +4,21 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable-v24/rules.xml" value="0.122" />
+        <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/arrow_white.xml" value="0.152" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/button_card.xml" value="0.152" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/card_background.xml" value="0.152" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/home_background.xml" value="0.122" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/home_card.xml" value="0.1645" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.152" />
+        <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.152" />
+        <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.152" />
+        <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/ic_baseline_login_24.xml" value="0.152" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1455" />
+        <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.152" />
+        <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/ic_baseline_rate_review_24.xml" value="0.152" />
+        <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.152" />
+        <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/ic_baseline_star_rate_24.xml" value="0.152" />
+        <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/ic_baseline_vpn_key_24.xml" value="0.152" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/questionshape.xml" value="0.152" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/activity_basic_knowledge.xml" value="0.22" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/activity_bcs_exam.xml" value="0.22" />
@@ -25,6 +34,7 @@
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/activity_samprotik.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/activity_science.xml" value="0.25" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+        <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/activity_splace_screen.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/activity_start_main_quiz.xml" value="0.25" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/fragment_home.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/nav_header.xml" value="0.20416666666666666" />

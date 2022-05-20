@@ -82,7 +82,8 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
     @Override
     public void onBackPressed() {
         Intent intent=new Intent(getApplicationContext(),MainActivity.class);
+        finish();
         startActivity(intent);
-        super.onBackPressed();
+
     }
 }

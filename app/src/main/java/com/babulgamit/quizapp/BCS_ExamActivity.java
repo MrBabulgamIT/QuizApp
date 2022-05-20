@@ -233,6 +233,7 @@ public class BCS_ExamActivity extends AppCompatActivity {
 
         }else
         {
+            bcs_msScore=bcs_msScore-1;
             Toast.makeText(getApplicationContext(), "!Ops  ভুল উত্তর", Toast.LENGTH_SHORT).show();
 
         }
@@ -240,7 +241,13 @@ public class BCS_ExamActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onBackPressed() {
+        Intent intent=new Intent(getApplicationContext(),PracticeActivity.class);
+        finish();
+        startActivity(intent);
 
+    }
 
 
 }

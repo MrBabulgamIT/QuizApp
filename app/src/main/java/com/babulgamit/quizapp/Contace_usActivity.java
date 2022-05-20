@@ -24,5 +24,11 @@ public class Contace_usActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    public void onBackPressed() {
+        Intent intent=new Intent(getApplicationContext(),MainActivity.class);
+        finish();
+        startActivity(intent);
 
+    }
 }

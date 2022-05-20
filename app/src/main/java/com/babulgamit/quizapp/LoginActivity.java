@@ -68,7 +68,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
                 case R.id.forget_password_id:
 
-                    startActivity(new Intent(getApplicationContext(),ICT_Quiz.class));
+                    startActivity(new Intent(getApplicationContext(),ForgetActivity.class));
                     break;
 
 
@@ -144,4 +144,19 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        if (mAuth.getCurrentUser() != null)
+        {
+            Toast.makeText(getApplicationContext(), "Already Logged In!", Toast.LENGTH_SHORT).show();
+            startActivity(new Intent(getApplicationContext(),MainActivity.class));
+            finish();
+        }
+        else
+        {
+            Toast.makeText(getApplicationContext(), "You can Login Now", Toast.LENGTH_SHORT).show();
+        }
+    }
 }

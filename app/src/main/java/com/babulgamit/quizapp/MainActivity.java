@@ -23,6 +23,7 @@ import android.widget.Toast;
 import android.widget.Toolbar;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private DrawerLayout drawerLayout;
@@ -31,23 +32,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private ImageView imageView;
     int count=0;
     private CardView practiceCV,startquizCV,feedbackCV,rulesCV;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
         setContentView(R.layout.activity_main);
 
         drawerLayout=findViewById(R.id.drawer_layout_id);
         imageView=findViewById(R.id.menu_id);
-
         practiceCV=findViewById(R.id.cvpractice_id);
         startquizCV=findViewById(R.id.startQuiz_card_id);
         feedbackCV=findViewById(R.id.cvfeedback_id);
         rulesCV=findViewById(R.id.cvRules_id);
-
         navigationView =findViewById(R.id.navigationView_id);
-
         practiceCV.setOnClickListener(this);
         startquizCV.setOnClickListener(this);
         feedbackCV.setOnClickListener(this);
@@ -92,9 +89,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 } else
 
-
-
-
                 if (id == R.id.nav_share) {
 
                     Intent intent=new Intent(Intent.ACTION_SEND);
@@ -110,6 +104,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (id == R.id.nav_rate) {
 
                     Toast.makeText(MainActivity.this, "rate is Clicked", Toast.LENGTH_SHORT).show();
+                }else
+                    if (id == R.id.nav_logout) {
+                        FirebaseAuth.getInstance().signOut();
+                        Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                        startActivity(intent);
                 }
 
                 drawerLayout.closeDrawer(GravityCompat.START);
@@ -146,9 +146,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onBackPressed() {
-        count ++;
-
-        if (count==2)
+            count ++;
+            if (count==2);
             finish();
     }
 

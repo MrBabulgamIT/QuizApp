@@ -247,11 +247,18 @@ public class ICT_Quiz extends AppCompatActivity {
 
         }else
         {
+            msScore=msScore-1;
             Toast.makeText(getApplicationContext(), "!Ops ভুল উত্তর", Toast.LENGTH_SHORT).show();
 
         }
 
     }
+    @Override
+    public void onBackPressed() {
+        Intent intent=new Intent(getApplicationContext(),PracticeActivity.class);
+        finish();
+        startActivity(intent);
 
+    }
 }
 

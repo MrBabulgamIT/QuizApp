@@ -22,7 +22,8 @@ public class BasicKnowledge extends AppCompatActivity {
     private TextView gk_questionNumber, gk_question,score;
     int gk_currentIndex;
     private ImageView gkarrow;
-    int gk_msScore =0;
+
+    double gk_msScore =0.00;
     int gk_qn =1;
     Dialog dialog;
     private ProgressBar gk_progressBar;
@@ -166,6 +167,8 @@ public class BasicKnowledge extends AppCompatActivity {
         gk_currentIndex =(gk_currentIndex +1)% gk_questionBank.length;
 
 
+
+
         if (gk_currentIndex ==0)
         {
 
@@ -235,7 +238,6 @@ public class BasicKnowledge extends AppCompatActivity {
         gk_cheekout1.setText(userSelection);
 
         gk_cheekout2.setText(correctanswer);
-
         String m= gk_cheekout1.getText().toString().trim();
         String n= gk_cheekout2.getText().toString().trim();
 
@@ -246,13 +248,17 @@ public class BasicKnowledge extends AppCompatActivity {
 
         }else
         {
+            gk_msScore=gk_msScore-1;
             Toast.makeText(getApplicationContext(), "!Ops ভুল উত্তর", Toast.LENGTH_SHORT).show();
-
         }
-
-
     }
 
+    @Override
+    public void onBackPressed() {
+        Intent intent=new Intent(getApplicationContext(),PracticeActivity.class);
+        finish();
+        startActivity(intent);
 
+    }
 }
 

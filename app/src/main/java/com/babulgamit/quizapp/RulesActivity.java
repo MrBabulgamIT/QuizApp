@@ -31,7 +31,8 @@ public class RulesActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         Intent intent=new Intent(getApplicationContext(),MainActivity.class);
+        finish();
         startActivity(intent);
-        super.onBackPressed();
+
     }
 }

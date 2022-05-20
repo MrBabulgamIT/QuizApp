@@ -242,6 +242,7 @@ public class ScienceActivity extends AppCompatActivity {
 
         }else
         {
+            science_msScore=science_msScore-1;
             Toast.makeText(getApplicationContext(), "!Ops ভুল উত্তর", Toast.LENGTH_SHORT).show();
 
         }
@@ -253,7 +254,10 @@ public class ScienceActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+        Intent intent=new Intent(getApplicationContext(),PracticeActivity.class);
+        finish();
+        startActivity(intent);
+
     }
 }
 

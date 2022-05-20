@@ -33,7 +33,7 @@
         android:text="Let's get started!"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="35dp"
+        android:textSize="30dp"
         android:textStyle="bold" />
 
     <TextView
@@ -87,6 +87,7 @@
                     android:layout_height="wrap_content"
                     app:startIconDrawable="@drawable/ic_baseline_person_24"
                     android:layout_marginStart="20dp"
+                    app:hintTextColor="@color/black"
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="20dp"
                     app:boxBackgroundColor="@color/white"
@@ -101,6 +102,7 @@
                         android:backgroundTint="@color/white"
                         android:padding="15dp"
                         android:textSize="20dp"
+                        android:textColor="@color/black"
                         android:textStyle="italic" />
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -144,6 +146,7 @@
                         android:background="@drawable/home_background"
                         android:backgroundTint="@color/white"
                         android:padding="15dp"
+                        android:textColor="@color/black"
                         android:textSize="20dp"
                         android:textStyle="italic" />
 
@@ -186,6 +189,7 @@
                         android:background="@drawable/home_background"
                         android:backgroundTint="@color/white"
                         android:padding="15dp"
+                        android:textColor="@color/black"
                         android:textSize="20dp"
                         android:textStyle="italic" />
 
@@ -233,6 +237,7 @@
                         android:backgroundTint="@color/white"
                         android:padding="15dp"
                         android:textSize="20dp"
+                        android:textColor="@color/black"
                         android:textStyle="italic" />
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -269,6 +274,7 @@
                     android:layout_marginRight="10dp"
                     android:textAlignment="textEnd"
                     android:textSize="20dp"
+                    android:textColor="@color/black"
                     android:id="@+id/gtregistration_text_id"
                     android:textStyle="bold"
                     android:layout_marginBottom="10dp"

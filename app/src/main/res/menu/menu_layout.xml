@@ -34,7 +34,19 @@
                 android:icon="@drawable/ic_baseline_person_24"
                 android:title="Contact Us" />
 
+
         </menu>
     </item>
+
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
 
 </menu>

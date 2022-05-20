@@ -10,30 +10,44 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizApp">
         <activity
+            android:name=".Splace_Screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".ForgetActivity"
+            android:exported="false"
             android:noHistory="true"
-            android:parentActivityName=".MainActivity"
-            android:exported="false" />
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Contace_usActivity"
+            android:exported="false"
             android:noHistory="true"
-            android:parentActivityName=".MainActivity"
-            android:exported="false" />
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".ScienceActivity"
+            android:exported="false"
             android:noHistory="true"
-            android:parentActivityName=".PracticeActivity"
-            android:exported="false" />
+            android:parentActivityName=".PracticeActivity" />
         <activity
             android:name=".MathActivity"
+            android:exported="false"
             android:noHistory="true"
-            android:parentActivityName=".PracticeActivity"
-            android:exported="false" />
+            android:parentActivityName=".PracticeActivity" >
+
+        </activity>
         <activity
             android:name=".BCS_ExamActivity"
+            android:exported="false"
             android:noHistory="true"
-            android:parentActivityName=".PracticeActivity"
-            android:exported="false" />
+            android:parentActivityName=".PracticeActivity">
+
+        </activity>
         <activity
             android:name=".StartMainQuizActivity"
             android:exported="false"
@@ -51,41 +65,35 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".PracticeActivity"
-            android:exported="true"
-            android:noHistory="false"
-            android:parentActivityName=".MainActivity" >
-
-        </activity>
+            android:exported="false"
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity">
+           </activity>
         <activity
             android:name=".SignUp_Activity"
-            android:noHistory="true"
-            android:exported="false" />
+            android:exported="false"
+            android:noHistory="true" />
         <activity
             android:name=".LoginActivity"
-            android:noHistory="true"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="false"
+           >
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".BasicKnowledge"
+            android:exported="false"
             android:noHistory="true"
-            android:parentActivityName=".PracticeActivity"
-            android:exported="false" />
+            android:parentActivityName=".PracticeActivity" />
         <activity
             android:name=".ICT_Quiz"
+            android:exported="false"
             android:noHistory="true"
-            android:parentActivityName=".PracticeActivity"
-            android:exported="false" />
+            android:parentActivityName=".PracticeActivity" />
         <activity
             android:name=".MainActivity"
+            android:exported="false"
             android:noHistory="true"
-            android:exported="false">
-
-        </activity>
+            ></activity>
     </application>
 
 </manifest>
