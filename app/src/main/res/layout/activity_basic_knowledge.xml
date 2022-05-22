@@ -57,12 +57,14 @@
             android:layout_below="@+id/gk_questionNumber_id"
             android:layout_weight="0.5"
             android:padding="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/questionshape"
             android:gravity="center"
             android:id="@+id/gk_Optionlayout"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="10dp"
             android:orientation="horizontal"
             >
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -70,7 +72,6 @@
                 android:textColor="@color/white"
                 android:textSize="18dp"
                 android:visibility="visible"
-
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -130,6 +131,7 @@
                 android:gravity="center"
                 android:textSize="18dp"
                 android:textAlignment="center"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -143,6 +145,7 @@
                 android:gravity="center"
                 android:textSize="18dp"
                 android:textAlignment="center"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -156,6 +159,7 @@
                 android:gravity="center"
                 android:textSize="18dp"
                 android:textAlignment="center"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"

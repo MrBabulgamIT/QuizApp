@@ -212,17 +212,11 @@ public class MathActivity extends AppCompatActivity {
         math_score.setText("Score " + math_msScore + "/" + math_questionBank.length);
         math_progressBar.incrementProgressBy(math_Progress_Bar);
     }
-
     private void math_CheekAnswer(int userSelection) {
-
         int math_correctanswer = math_questionBank[math_currentIndex].getAnswerId();
         countDownTimermath.cancel();
-
-
         math_cheekout1.setText(userSelection);
-
         math_cheekout2.setText(math_correctanswer);
-
         String m= math_cheekout1.getText().toString().trim();
         String n= math_cheekout2.getText().toString().trim();
 
@@ -230,7 +224,6 @@ public class MathActivity extends AppCompatActivity {
         {
             Toast.makeText(getApplicationContext(), "সঠিক উত্তর", Toast.LENGTH_SHORT).show();
             math_msScore = math_msScore +1;
-
         }else
         {
             math_msScore=math_msScore-1;

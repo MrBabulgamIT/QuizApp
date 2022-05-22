@@ -78,7 +78,7 @@ public class ForgetActivity extends AppCompatActivity {
     }
     @Override
     public void onBackPressed() {
-        Intent intent=new Intent(getApplicationContext(),MainActivity.class);
+        Intent intent=new Intent(getApplicationContext(),LoginActivity.class);
         finish();
         startActivity(intent);
 
