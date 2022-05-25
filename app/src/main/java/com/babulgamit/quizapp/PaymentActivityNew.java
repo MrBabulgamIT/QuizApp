@@ -65,12 +65,19 @@ public class PaymentActivityNew extends AppCompatActivity implements View.OnClic
                 break;
 
             case R.id.backarrowPayment_id:
-                startActivity(new Intent(getApplicationContext(),PaymentActivityNew.class));
+                startActivity(new Intent(getApplicationContext(),MainActivity.class));
 
             case R.id.paymentButton_id:
                 Toast.makeText(getApplicationContext(), "Payment Process continue", Toast.LENGTH_SHORT).show();
 
         }
+
+    }
+    @Override
+    public void onBackPressed() {
+        Intent intent=new Intent(getApplicationContext(),MainActivity.class);
+        finish();
+        startActivity(intent);
 
     }
 

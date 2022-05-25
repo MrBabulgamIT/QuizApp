@@ -11,6 +11,8 @@
         android:theme="@style/Theme.QuizApp">
         <activity
             android:name=".PaymentActivityNew"
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".Splace_Screen"
