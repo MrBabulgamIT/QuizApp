@@ -25,7 +25,7 @@ public class StartMainQuizActivity extends AppCompatActivity {
         payment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(),PracticeActivity.class));
+                startActivity(new Intent(getApplicationContext(),PaymentActivityNew.class));
             }
         });
         arrowstartQuiz.setOnClickListener(new View.OnClickListener() {

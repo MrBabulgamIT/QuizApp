@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.startQuiz_card_id:
-               startActivity(new Intent(getApplicationContext(),StartMainQuizActivity.class));
+               startActivity(new Intent(getApplicationContext(),PaymentActivityNew.class));
                 break;
         }
     }

@@ -7,6 +7,7 @@
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/arrow_white.xml" value="0.152" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/button_card.xml" value="0.152" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/card_background.xml" value="0.152" />
+        <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/editbackgrround.xml" value="0.1625" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/home_background.xml" value="0.122" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/home_card.xml" value="0.1645" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.152" />
@@ -29,6 +30,9 @@
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/activity_math.xml" value="0.25" />
+        <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/activity_payment.xml" value="0.22" />
+        <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/activity_payment_main.xml" value="0.22" />
+        <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/activity_payment_new.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/activity_practice.xml" value="0.25" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/activity_rules.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/activity_samprotik.xml" value="0.20416666666666666" />
@@ -36,6 +40,8 @@
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/activity_splace_screen.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/activity_start_main_quiz.xml" value="0.25" />
+        <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/bkash_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/dbbl_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/fragment_home.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/nav_header.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Jony/AndroidStudioProjects/QuizApp2/app/src/main/res/layout/user.xml" value="0.20416666666666666" />

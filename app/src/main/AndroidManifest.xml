@@ -10,13 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizApp">
         <activity
+            android:name=".PaymentActivityNew"
+            android:exported="false" />
+        <activity
             android:name=".Splace_Screen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-
             </intent-filter>
         </activity>
         <activity
@@ -38,16 +40,12 @@
             android:name=".MathActivity"
             android:exported="false"
             android:noHistory="true"
-            android:parentActivityName=".PracticeActivity" >
-
-        </activity>
+            android:parentActivityName=".PracticeActivity" />
         <activity
             android:name=".BCS_ExamActivity"
             android:exported="false"
             android:noHistory="true"
-            android:parentActivityName=".PracticeActivity">
-
-        </activity>
+            android:parentActivityName=".PracticeActivity" />
         <activity
             android:name=".StartMainQuizActivity"
             android:exported="false"
@@ -67,18 +65,14 @@
             android:name=".PracticeActivity"
             android:exported="false"
             android:noHistory="true"
-            android:parentActivityName=".MainActivity">
-           </activity>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".SignUp_Activity"
             android:exported="false"
             android:noHistory="true" />
         <activity
             android:name=".LoginActivity"
-            android:exported="false"
-           >
-
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".BasicKnowledge"
             android:exported="false"
@@ -92,8 +86,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="false"
-            android:noHistory="true"
-            ></activity>
+            android:noHistory="true" />
     </application>
 
 </manifest>
