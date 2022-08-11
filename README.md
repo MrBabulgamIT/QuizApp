@@ -1,9 +1,10 @@
 # QuizApp
 This is a Quiz App. There add some cardview and using timer.
 
-![Capture11](https://user-images.githubusercontent.com/92115431/184164814-c6910d0c-ea53-462f-a6c9-3cebb59933f7.JPG)
 
 ![Capture6](https://user-images.githubusercontent.com/92115431/184164941-09c4166b-f15d-43e7-9bfa-28005d668f9b.JPG)
+
+![Capture11](https://user-images.githubusercontent.com/92115431/184164814-c6910d0c-ea53-462f-a6c9-3cebb59933f7.JPG)
 
 ![Capture8](https://user-images.githubusercontent.com/92115431/184164825-727e5ab1-cda1-485e-bdca-a2359df4ac9a.JPG)
 
@@ -14,7 +15,7 @@ This is a Quiz App. There add some cardview and using timer.
 
 ![Capture4](https://user-images.githubusercontent.com/92115431/184165060-8950f906-8074-4ac2-8b4e-f18e1336decd.JPG)
 
-![Capture5](https://user-images.githubusercontent.com/92115431/184165125-f9a047b9-a87
+![Capture7](https://user-images.githubusercontent.com/92115431/184165726-e6e6f4d1-083d-41ae-8bd3-1b64af8d8a5e.JPG)
 
 ![Capture](https://user-images.githubusercontent.com/92115431/184165157-ac03d93e-d5a3-4f4d-a896-08924ae01b86.JPG)9-48ef85cc-bba8c11c3a59.JPG)
 
